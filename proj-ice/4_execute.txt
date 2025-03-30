@@ -1,0 +1,4 @@
+execute tests/in/1_create.txt
+execute tests/in/2_load.txt
+execute tests/in/3_summary.txt
+execute tests/in/5_extra.txt

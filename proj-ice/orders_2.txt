@@ -1,0 +1,24 @@
+CREATE_TABLES
+LOAD_TEST data/file_1.txt
+LOAD_TEST data/file_2.txt
+LOAD_TEST data/file_3.txt
+LOAD_TEST data/file_4.txt
+LOAD_TEST data/file_5.txt
+LOAD_TEST data/file_6.txt
+LOAD_TEST data/file_7.txt
+LOAD_TEST data/file_8.txt
+LOAD_TEST data/file_9.txt
+LOAD_TEST data/file_10.txt
+LOAD_TEST data/file_11.txt
+LOAD_TEST data/file_12.txt
+LOAD_TEST data/file_13.txt
+LOAD_TEST data/file_14.txt
+LOAD_TEST data/file_15.txt
+SUMMARY 2005;2010;Certified
+SUMMARY 2005;2010;Not Certified
+SUMMARY 2005;2010;Unknown
+SUMMARY 2005;2010;*
+SUMMARY 2006;*;Certified
+SUMMARY *;2010;Certified
+SUMMARY *;*;*
+PLOT AKAQQC

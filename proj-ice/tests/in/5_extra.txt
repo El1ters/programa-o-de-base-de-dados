@@ -1,0 +1,5 @@
+load_test data/file_2.txt;data/file_3.txt
+summary *;*;*
+summary_file foo;1000;3000;*
+quit
+foo

@@ -1,0 +1,8 @@
+CREATE_TABLES
+LOAD_TEST data/file_1.txt
+LOAD_TEST data/file_2.txt
+LOAD_TEST data/file_3.txt
+SUMMARY 2003;2010;Certified
+SUMMARY 2004;2010;Not Certified
+SUMMARY *;*;*
+PLOT AKAQQC

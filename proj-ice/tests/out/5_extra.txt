@@ -1,0 +1,12 @@
+3 materials between * and * with certification * :
+	IUORBA
+	AKAQQC
+	PQQTCH
+Total samples: 21
+BYE!
+[(4, 'IUORBA', 2003, 200.0, 'Not Certified'), (5, 'AKAQQC', 2003, 180.0, 'Unknown'), (6, 'PQQTCH', 2004, 110.0, 'Certified')]
+3 materials between 1000 and 3000 with certification * :
+	IUORBA
+	AKAQQC
+	PQQTCH
+Total samples: 21

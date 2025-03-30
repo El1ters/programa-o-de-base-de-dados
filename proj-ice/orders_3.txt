@@ -1,0 +1,45 @@
+# execute these commands with EXECUTE filename
+#
+CREATE_TABLES
+#
+LOAD_TEST data/file_1.txt
+LOAD_TEST data/file_2.txt
+LOAD_TEST data/file_3.txt
+LOAD_TEST data/file_4.txt
+LOAD_TEST data/file_5.txt
+LOAD_TEST data/file_6.txt
+LOAD_TEST data/file_7.txt
+LOAD_TEST data/file_8.txt
+LOAD_TEST data/file_9.txt
+LOAD_TEST data/file_10.txt
+LOAD_TEST data/file_11.txt
+LOAD_TEST data/file_12.txt
+LOAD_TEST data/file_13.txt
+LOAD_TEST data/file_14.txt
+LOAD_TEST data/file_15.txt
+#
+SUMMARY *;*;Unknown
+SUMMARY *;*;Not Certified
+SUMMARY *;*;Certified
+#
+SUMMARY_FILE certificados.txt;*;*;Certified
+SUMMARY_FILE nao_certificados_2007.txt;2007;*;Not Certified
+#
+PLOT AKAQQC
+PLOT_FILE akaqqc.pdf;AKAQQC
+PLOT CQLKGJ
+PLOT_FILE cqlkgj.pdf;CQLKGJ
+PLOT IKHCPB
+PLOT_FILE ikhcpb.pdf;IKHCPB
+PLOT IUORBA
+PLOT_FILE iuorba.pdf;IUORBA
+PLOT JTKIHQ
+PLOT_FILE jtkihq.pdf;JTKIHQ
+PLOT OJTLRM
+PLOT_FILE ojtlrm.pdf;OJTLRM
+PLOT PQQTCH
+PLOT_FILE pqqtch.pdf;PQQTCH
+PLOT AKAQQC;CQLKGJ;IKHCPB;IUORBA;JTKIHQ;OJTLRM;PQQTCH
+PLOT_FILE all.pdf;AKAQQC;CQLKGJ;IKHCPB;IUORBA;JTKIHQ;OJTLRM;PQQTCH
+PLOT_FILE all.jpg;AKAQQC;CQLKGJ;IKHCPB;IUORBA;JTKIHQ;OJTLRM;PQQTCH
+PLOT_FILE all.png;AKAQQC;CQLKGJ;IKHCPB;IUORBA;JTKIHQ;OJTLRM;PQQTCH

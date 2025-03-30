@@ -1,0 +1,16 @@
+
+You should test your program with this "tester" when you think that some
+commands are already completed. Also, when asking for teachers help, the
+output of this tester can help to identify your problems.
+
+Unzip 'proj-ice2023-24-tester.zip', extracting everything to the same place as your project.
+The file 'test_proj.py' and directory 'tests' should be placed in the same
+directory (folder) as 'proj_ice.py'.
+
+To run, just execute test_proj.py as you usually run your Python programs. If
+in Spyder, open test_proj.py and run it by pressing the green arrow. This
+program will execute your proj_ice.py with several commands specified by the
+files in the tests directory and compare with the expected outputs. If the
+output is the same for one test, that test it shown as passed, if not, the
+output differences are shown, line by line.
+
